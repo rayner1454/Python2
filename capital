@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+
+# El siguiente programa es acerca de una transaccion de euros para obtener el capital inicial 
+
+print "PROGRAMA QUE MUESTRA EL CAPITAL INICIAL CON EL PASAR DE LOS AÑOS"
+euros=float(raw_input("Ingrese la cantidad en Euros: "))
+interes=float(raw_input("Ingrese la taza de interes: "))
+anios=int(raw_input("Cantidad de anios: "))
+#RECUERDA CUANDO USAS ** --->REPRESENTA LA POTENCIA EJEMPLO: 2**3=8
+capital=euros*(1+(interes/100))**anios
+print "El monte al pasar los anios es: ",capital
